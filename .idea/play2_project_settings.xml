@@ -13,6 +13,7 @@
         <entry key="root">
           <value>
             <ProjectSettingsEntry>
+              <option name="sourceDir" value="E:\Playframework\play-module\module\app" />
               <option name="confDir" value="E:\Playframework\play-module\playframework\scala\app" />
               <option name="templateImports">
                 <list>
