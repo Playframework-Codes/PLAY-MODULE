@@ -2,7 +2,8 @@ name := """scala"""
 
 version := "1.0-SNAPSHOT"
 
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
+lazy val module = RootProject(file("../../module"))
+lazy val root = (project in file(".")).enablePlugins(PlayScala).dependsOn(module)
 
 scalaVersion := "2.11.7"
 
